@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_01_TheBasics", "_01_TheBasics\_01_TheBasics.csproj", "{A74FA9C6-7321-4C8A-9B8B-2689FB147E7B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_02_TreeViewsAndValueConverter", "_02_TreeViewsAndValueConverter\_02_TreeViewsAndValueConverter.csproj", "{67AFAA93-4544-4FA5-B3FC-C3822B75043D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A74FA9C6-7321-4C8A-9B8B-2689FB147E7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A74FA9C6-7321-4C8A-9B8B-2689FB147E7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A74FA9C6-7321-4C8A-9B8B-2689FB147E7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67AFAA93-4544-4FA5-B3FC-C3822B75043D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67AFAA93-4544-4FA5-B3FC-C3822B75043D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67AFAA93-4544-4FA5-B3FC-C3822B75043D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67AFAA93-4544-4FA5-B3FC-C3822B75043D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
