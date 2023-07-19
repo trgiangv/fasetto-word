@@ -89,6 +89,7 @@ namespace _02_TreeViewsAndValueConverter
 
             // Create a blank list for directories
             var directories = new List<String>();
+            
             // Try and get directories from the folder
             // ignoring any issues doing so
             try
