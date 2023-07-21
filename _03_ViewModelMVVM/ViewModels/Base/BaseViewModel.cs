@@ -3,9 +3,11 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
 
-namespace _03_ViewModelMVVM.ViewModels;
+namespace _03_ViewModelMVVM;
 
-
+/// <summary>
+/// A base viewModel that fires Property changed events as needed
+/// </summary>
 public class BaseViewModel : INotifyPropertyChanged
 {
     public event PropertyChangedEventHandler? PropertyChanged;
