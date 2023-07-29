@@ -21,6 +21,7 @@ namespace WPF_Python
             var a = new FilteredElementCollector(doc).OfCategory(BuiltInCategory.OST_MechanicalEquipment).WhereElementIsNotElementType().ToElements();
             Options options = new Options();
             var c = a[0].get_Geometry(options);
+            var d = c.
             return Result.Succeeded;
         }
     }
