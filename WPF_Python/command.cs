@@ -9,7 +9,7 @@ using Autodesk.Revit.UI;
 
 namespace WPF_Python
 {
-    internal class command : IExternalCommand
+    public class Command : IExternalCommand
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
@@ -24,11 +24,10 @@ namespace WPF_Python
                 if (element.LevelId == new FilteredElementCollector(doc).OfClass(typeof(Level)).Where(x => x.Name == "E03").Select(x => x.Id).FirstOrDefault())
                 {
                     var c = new Options();
-                    if (doc.ActiveView.ViewType
-                        == ViewType.ThreeD)
+                    if (doc.ActiveView.ViewType == ViewType.ThreeD)
                         TaskDialog.Show("hello", "hdlle");
-                    element.LevelId == new FilteredElementCollector(doc);
-                    var ee = allMechanical[0]
+                    
+        
                 }
             }
                 
