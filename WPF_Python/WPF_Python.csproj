@@ -1,4 +1,5 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿
+<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <OutputType>WinExe</OutputType>
@@ -6,5 +7,16 @@
         <Nullable>enable</Nullable>
         <UseWPF>true</UseWPF>
     </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="RevitAPI">
+        <HintPath>C:\Program Files\Autodesk\Revit 2019\RevitAPI.dll</HintPath>
+        <Private>False</Private>
+      </Reference>
+      <Reference Include="RevitAPIUI">
+        <HintPath>C:\Program Files\Autodesk\Revit 2019\RevitAPIUI.dll</HintPath>
+        <Private>False</Private>
+      </Reference>
+    </ItemGroup>
 
 </Project>
