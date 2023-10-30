@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Windows.Data;
@@ -38,7 +39,7 @@ public class HeaderToImageConverter : IValueConverter
         
         return new BitmapImage(new Uri($"pack://application:,,,/{image}"));
     }
-
+    
     public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
     {
         throw new NotImplementedException();
