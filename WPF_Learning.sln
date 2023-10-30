@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF_Python", "WPF_Python\WP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1_TheBasics", "_1_TheBasics\_1_TheBasics.csproj", "{45257DF4-7AF9-4A2B-905B-7213F2F7EC8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2_TreeViewsAndValueConverters", "_2_TreeViewsAndValueConverters\_2_TreeViewsAndValueConverters.csproj", "{F91E0409-EFB7-4C05-AF7E-5C58DE1DA954}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{45257DF4-7AF9-4A2B-905B-7213F2F7EC8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45257DF4-7AF9-4A2B-905B-7213F2F7EC8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45257DF4-7AF9-4A2B-905B-7213F2F7EC8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F91E0409-EFB7-4C05-AF7E-5C58DE1DA954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F91E0409-EFB7-4C05-AF7E-5C58DE1DA954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F91E0409-EFB7-4C05-AF7E-5C58DE1DA954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F91E0409-EFB7-4C05-AF7E-5C58DE1DA954}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

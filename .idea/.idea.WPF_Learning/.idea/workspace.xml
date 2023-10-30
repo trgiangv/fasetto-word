@@ -7,13 +7,16 @@
     <projectFile>_02_TreeViewsAndValueConverter/_02_TreeViewsAndValueConverter.csproj</projectFile>
     <projectFile>_02_TreeViewsAndValueConverters_Net/_02_TreeViewsAndValueConverters_Net.csproj</projectFile>
     <projectFile>_03_ViewModelMVVM/_03_ViewModelMVVM.csproj</projectFile>
+    <projectFile>_1_TheBasics/_1_TheBasics.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5562a688-75fc-4aa1-903c-8872025bb045" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/_02_TreeViewsAndValueConverters_Net/HeaderToImageConverter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/_02_TreeViewsAndValueConverters_Net/HeaderToImageConverter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WPF_Learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WPF_Learning/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_1_TheBasics/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/_1_TheBasics/MainWindow.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_1_TheBasics/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/_1_TheBasics/MainWindow.xaml.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +27,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/16477ae1886447bfade52ff93bdc1d22604f88/ff/79bd7b9e/CheckBox.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WPF_Python/SUD.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WPF_Python/Test1.xaml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/_03_ViewModelMVVM/Directory/DirectoryStructure.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://F:/git/WPF_Learning/_1_TheBasics/MainWindow.xaml" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -44,32 +48,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;SolutionBuilderGeneralOptionsPage&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TODO_SCOPE": "All Places",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "SolutionBuilderGeneralOptionsPage",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\NR3RG_u01\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\NR3RG_u01\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\NR3RG_u01\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\truon\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
+      "C:\\Users\\truon\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
+      "C:\\Users\\truon\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RiderProblemsViewState">
     <option name="proportion" value="0.7281106" />
   </component>
-  <component name="RunManager" selected=".NET Project._03_ViewModelMVVM">
+  <component name="RunManager" selected=".NET Project._1_TheBasics">
     <configuration name="WPF_Python" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -178,6 +182,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="_1_TheBasics" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/_1_TheBasics/_1_TheBasics.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -198,6 +220,7 @@
       <workItem from="1691559894457" duration="1412000" />
       <workItem from="1691971789382" duration="477000" />
       <workItem from="1692156408192" duration="341000" />
+      <workItem from="1698670985533" duration="4738000" />
     </task>
     <task id="LOCAL-00001" summary="Update MVVM">
       <option name="closed" value="true" />
