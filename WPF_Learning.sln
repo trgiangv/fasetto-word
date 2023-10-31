@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1_TheBasics", "_1_TheBasic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2_TreeViewsAndValueConverters", "_2_TreeViewsAndValueConverters\_2_TreeViewsAndValueConverters.csproj", "{F91E0409-EFB7-4C05-AF7E-5C58DE1DA954}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_3_TreeViewsSimpleViewModel", "_3_TreeViewsSimpleViewModel\_3_TreeViewsSimpleViewModel.csproj", "{051726E1-23EA-420D-8BD8-6151C3BD88CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F91E0409-EFB7-4C05-AF7E-5C58DE1DA954}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F91E0409-EFB7-4C05-AF7E-5C58DE1DA954}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F91E0409-EFB7-4C05-AF7E-5C58DE1DA954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{051726E1-23EA-420D-8BD8-6151C3BD88CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{051726E1-23EA-420D-8BD8-6151C3BD88CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{051726E1-23EA-420D-8BD8-6151C3BD88CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{051726E1-23EA-420D-8BD8-6151C3BD88CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
