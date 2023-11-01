@@ -16,12 +16,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5562a688-75fc-4aa1-903c-8872025bb045" name="Changes" comment="">
+    <list default="true" id="5562a688-75fc-4aa1-903c-8872025bb045" name="Changes" comment="update gitignore">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WPF_Learning/.idea/shelf/Uncommitted_changes_before_Update_at_31-Oct-23_7_32_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WPF_Learning/.idea/shelf/Uncommitted_changes_before_Update_at_31-Oct-23_7_32_AM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WPF_Learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WPF_Learning/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_3_TreeViewsSimpleViewModel/FodyWeavers.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_3_TreeViewsSimpleViewModel/_3_TreeViewsSimpleViewModel.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/_3_TreeViewsSimpleViewModel/_3_TreeViewsSimpleViewModel.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_3_TreeViewsSimpleViewModel/Directory/ViewModels/Base/RelayCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/_3_TreeViewsSimpleViewModel/Directory/ViewModels/Base/RelayCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_3_TreeViewsSimpleViewModel/Directory/ViewModels/DirectoryItemViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/_3_TreeViewsSimpleViewModel/Directory/ViewModels/DirectoryItemViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_3_TreeViewsSimpleViewModel/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/_3_TreeViewsSimpleViewModel/MainWindow.xaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +35,7 @@
     <setting file="file://$PROJECT_DIR$/WPF_Python/SUD.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WPF_Python/Test1.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WPF_Python/obj/Debug/net7.0-windows/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://F:/git/WPF_Learning/_3_TreeViewsSimpleViewModel/Directory/ViewModels/DirectoryItemViewModel.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -306,6 +307,7 @@
       <workItem from="1698798034725" duration="25148000" />
       <workItem from="1698846171924" duration="296000" />
       <workItem from="1698846484147" duration="425000" />
+      <workItem from="1698846927467" duration="4913000" />
     </task>
     <task id="LOCAL-00001" summary="Update MVVM">
       <option name="closed" value="true" />
@@ -339,7 +341,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698744657516</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update gitignore">
+      <option name="closed" value="true" />
+      <created>1698846942777</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698846942777</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,18 +362,7 @@
     <MESSAGE value="Update Test python xaml" />
     <MESSAGE value="update" />
     <MESSAGE value="Update MVVM" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update MVVM" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/_3_TreeViewsSimpleViewModel/Directory/ViewModels/DirectoryItemViewModel.cs</url>
-          <line>91</line>
-          <properties documentPath="F:\DIG_GiangVu\git\WPF_Learning\_3_TreeViewsSimpleViewModel\Directory\ViewModels\DirectoryItemViewModel.cs" initialLine="91" containingFunctionPresentation="Method 'ClearChildren'" />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="update gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="update gitignore" />
   </component>
 </project>

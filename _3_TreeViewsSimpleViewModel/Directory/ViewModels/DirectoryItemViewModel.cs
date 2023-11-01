@@ -13,7 +13,8 @@ namespace _3_TreeViewsSimpleViewModel
         private string _fullPath;
         private ObservableCollection<DirectoryItemViewModel> _children;
         private RelayCommand _expandCommand;
-
+        private bool _isExpanded;
+        
         public DirectoryItemType Type
         {
             get => _type;
@@ -27,7 +28,7 @@ namespace _3_TreeViewsSimpleViewModel
             }
         }
 
-        public string ImageName => Type == DirectoryItemType.Drive ? "drive" : (Type == DirectoryItemType.File ? "file" : (IsExpanded ? "folder-closed" : "folder-open"));
+        public string ImageName => Type == DirectoryItemType.Drive ? "drive" : (Type == DirectoryItemType.File ? "file" : (IsExpanded ? "folder-open" : "folder-closed"));
         
         public string FullPath
         {
@@ -59,6 +60,13 @@ namespace _3_TreeViewsSimpleViewModel
             get => Children?.Count(x=>x != null) > 0;
             set
             {
+                if (_isExpanded != value)
+                {
+                    _isExpanded = value;
+
+                    // Update the image name based on the expanded state
+                    OnPropertyChanged(nameof(ImageName));
+                }
                 if (value)
                 {
                     Expand();

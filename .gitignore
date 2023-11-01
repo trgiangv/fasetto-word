@@ -40,7 +40,7 @@ _ReSharper*/
 
 #Rider
 .idea
-
+.idea\.idea.WPF_Learning\.idea\workspace.xml
 #Installer
 output
 

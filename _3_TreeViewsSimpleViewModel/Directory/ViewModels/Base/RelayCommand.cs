@@ -13,7 +13,7 @@ namespace _3_TreeViewsSimpleViewModel
         /// <summary>
         /// The action to run
         /// </summary>
-        private Action mAction;
+        private readonly Action _mAction;
 
         #endregion
 
@@ -33,7 +33,7 @@ namespace _3_TreeViewsSimpleViewModel
         /// </summary>
         public RelayCommand(Action action)
         {
-            mAction = action;
+            _mAction = action;
         }
 
         #endregion
@@ -56,7 +56,7 @@ namespace _3_TreeViewsSimpleViewModel
         /// <param name="parameter"></param>
         public void Execute(object parameter)
         {
-            mAction();
+            _mAction();
         }
 
         #endregion
