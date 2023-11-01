@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2_TreeViewsAndValueConvert
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_3_TreeViewsSimpleViewModel", "_3_TreeViewsSimpleViewModel\_3_TreeViewsSimpleViewModel.csproj", "{051726E1-23EA-420D-8BD8-6151C3BD88CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMVVM", "SimpleMVVM\SimpleMVVM.csproj", "{4E7F4699-14C8-4120-9DBD-50858B51D92D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{051726E1-23EA-420D-8BD8-6151C3BD88CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{051726E1-23EA-420D-8BD8-6151C3BD88CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{051726E1-23EA-420D-8BD8-6151C3BD88CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E7F4699-14C8-4120-9DBD-50858B51D92D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E7F4699-14C8-4120-9DBD-50858B51D92D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E7F4699-14C8-4120-9DBD-50858B51D92D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E7F4699-14C8-4120-9DBD-50858B51D92D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

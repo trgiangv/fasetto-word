@@ -4,16 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{051726E1-23EA-420D-8BD8-6151C3BD88CA}</ProjectGuid>
+    <ProjectGuid>{4E7F4699-14C8-4120-9DBD-50858B51D92D}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>_3_TreeViewsSimpleViewModel</RootNamespace>
-    <AssemblyName>_3_TreeViewsSimpleViewModel</AssemblyName>
+    <RootNamespace>SimpleMVVM</RootNamespace>
+    <AssemblyName>SimpleMVVM</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WarningLevel>4</WarningLevel>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -49,8 +48,17 @@
       <HintPath>..\packages\Microsoft.Xaml.Behaviors.Wpf.1.1.39\lib\net45\Design\Microsoft.Xaml.Behaviors.Design.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib" />
+    <Reference Include="Prism, Version=9.0.271.34483, Culture=neutral, PublicKeyToken=40ee6c3a2184dc59, processorArchitecture=MSIL">
+      <HintPath>..\packages\Prism.Core.9.0.271-pre\lib\net47\Prism.dll</HintPath>
+    </Reference>
     <Reference Include="Prism.Container.Abstractions, Version=9.0.61.32622, Culture=neutral, PublicKeyToken=40ee6c3a2184dc59, processorArchitecture=MSIL">
       <HintPath>..\packages\Prism.Container.Abstractions.9.0.61-pre\lib\net47\Prism.Container.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Prism.Events, Version=9.0.271.34483, Culture=neutral, PublicKeyToken=40ee6c3a2184dc59, processorArchitecture=MSIL">
+      <HintPath>..\packages\Prism.Events.9.0.271-pre\lib\net47\Prism.Events.dll</HintPath>
+    </Reference>
+    <Reference Include="Prism.Wpf, Version=9.0.271.34483, Culture=neutral, PublicKeyToken=40ee6c3a2184dc59, processorArchitecture=MSIL">
+      <HintPath>..\packages\Prism.Wpf.9.0.271-pre\lib\net47\Prism.Wpf.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
@@ -75,6 +83,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="SimpleClass.cs" />
+    <Compile Include="SimpleViewModel.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -83,14 +93,6 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Directory\Data\DirectoryItem.cs" />
-    <Compile Include="Directory\Data\DirectoryItemType.cs" />
-    <Compile Include="Directory\DirectoryStructure.cs" />
-    <Compile Include="Directory\ViewModels\Base\BaseViewModel.cs" />
-    <Compile Include="Directory\ViewModels\Base\RelayCommand.cs" />
-    <Compile Include="Directory\ViewModels\DirectoryItemViewModel.cs" />
-    <Compile Include="Directory\ViewModels\DirectoryStructureViewModel.cs" />
-    <Compile Include="HeaderToImageConverter.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -112,18 +114,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\drive.png" />
-    <Resource Include="Resources\file.png" />
-    <Resource Include="Resources\folder-closed.png" />
-    <Resource Include="Resources\folder-open.png" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
-    <PropertyGroup>
-      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105.The missing file is {0}.</ErrorText>
-    </PropertyGroup>
-    <Error Condition="!Exists('..\packages\Fody.6.6.4\build\Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Fody.6.6.4\build\Fody.targets'))" />
-  </Target>
 </Project>

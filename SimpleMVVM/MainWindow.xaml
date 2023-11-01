@@ -1,0 +1,32 @@
+﻿<Window x:Class="SimpleMVVM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SimpleMVVM"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" WindowStartupLocation="CenterScreen" Topmost="True">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="7*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="200"/>
+        </Grid.RowDefinitions>
+        
+        <Label  Content="Số A" VerticalAlignment="Center"/>
+        <Label Grid.Row="1"  Content="Số B" VerticalAlignment="Center"/>
+        <Label Grid.Row="2"  Content="A + B" VerticalAlignment="Center"/>
+        <TextBox Name="soA" Text="{Binding SoThu1,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Grid.Column="1" VerticalAlignment="Center" />
+        <TextBox Name="soB" Text="{Binding SoThu2,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" />
+        <TextBox Name="tongAB" Text="{Binding Tong,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" />
+        <Button Grid.Column="1" Command="{Binding SubmitCommand}"  Grid.Row="3" VerticalAlignment="Center" Content="Tính tổng" HorizontalAlignment="Center" />
+        <DataGrid Grid.Row="4" ItemsSource="{Binding lstTong}" Grid.ColumnSpan="2" />
+        
+    </Grid>
+</Window>

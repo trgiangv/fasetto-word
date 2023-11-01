@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System;
+using System.Windows;
 
 namespace _3_TreeViewsSimpleViewModel
 {
@@ -16,7 +17,8 @@ namespace _3_TreeViewsSimpleViewModel
         {
             InitializeComponent();
 
-            this.DataContext = new DirectoryStructureViewModel();
+            DataContext = new DirectoryStructureViewModel();
+            
         }
 
         #endregion
