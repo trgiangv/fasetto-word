@@ -57,7 +57,7 @@ namespace _3_TreeViewsSimpleViewModel
 
         public bool IsExpanded
         {
-            get => Children?.Count(x=>x != null) > 0;
+            get => _isExpanded;
             set
             {
                 if (_isExpanded != value)

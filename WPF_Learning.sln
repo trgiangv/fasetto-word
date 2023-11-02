@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_3_TreeViewsSimpleViewModel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMVVM", "SimpleMVVM\SimpleMVVM.csproj", "{4E7F4699-14C8-4120-9DBD-50858B51D92D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_4_FasettoWord", "_4_FasettoWord\_4_FasettoWord.csproj", "{29DAD005-D316-4BBB-81D2-94E5F49DB790}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{4E7F4699-14C8-4120-9DBD-50858B51D92D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E7F4699-14C8-4120-9DBD-50858B51D92D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E7F4699-14C8-4120-9DBD-50858B51D92D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29DAD005-D316-4BBB-81D2-94E5F49DB790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29DAD005-D316-4BBB-81D2-94E5F49DB790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29DAD005-D316-4BBB-81D2-94E5F49DB790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29DAD005-D316-4BBB-81D2-94E5F49DB790}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

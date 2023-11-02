@@ -11,17 +11,97 @@
     <projectFile>_1_TheBasics/_1_TheBasics.csproj</projectFile>
     <projectFile>_2_TreeViewsAndValueConverters/_2_TreeViewsAndValueConverters.csproj</projectFile>
     <projectFile>_3_TreeViewsSimpleViewModel/_3_TreeViewsSimpleViewModel.csproj</projectFile>
+    <projectFile>_4_FasettoWord/_4_FasettoWord.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5562a688-75fc-4aa1-903c-8872025bb045" name="Changes" comment="update gitignore">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="5562a688-75fc-4aa1-903c-8872025bb045" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/JetbrainsMono/JetBrainsMono-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/JetbrainsMono/JetBrainsMono-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/JetbrainsMono/JetBrainsMono-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/JetbrainsMono/JetBrainsMono-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/JetbrainsMono/JetBrainsMono-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/JetbrainsMono/JetBrainsMono-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/JetbrainsMono/JetBrainsMono-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/JetbrainsMono/JetBrainsMono-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/JetbrainsMono/JetBrainsMono-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/JetbrainsMono/JetBrainsMono-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/JetbrainsMono/JetBrainsMono-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/JetbrainsMono/JetBrainsMono-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/JetbrainsMono/JetBrainsMono-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/JetbrainsMono/JetBrainsMono-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/JetbrainsMono/JetBrainsMono-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/JetbrainsMono/JetBrainsMono-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/JetbrainsMono/JetBrainsMonoNL-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/JetbrainsMono/JetBrainsMonoNL-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/JetbrainsMono/JetBrainsMonoNL-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/JetbrainsMono/JetBrainsMonoNL-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/JetbrainsMono/JetBrainsMonoNL-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/JetbrainsMono/JetBrainsMonoNL-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/JetbrainsMono/JetBrainsMonoNL-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/JetbrainsMono/JetBrainsMonoNL-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/JetbrainsMono/JetBrainsMonoNL-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/JetbrainsMono/JetBrainsMonoNL-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/JetbrainsMono/JetBrainsMonoNL-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/JetbrainsMono/JetBrainsMonoNL-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/JetbrainsMono/JetBrainsMonoNL-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/JetbrainsMono/JetBrainsMonoNL-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/JetbrainsMono/JetBrainsMonoNL-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/JetbrainsMono/JetBrainsMonoNL-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato-Hairline.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato-HairlineItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato-Heavy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato-HeavyItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato-Semibold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato-SemiboldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato/Lato-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato/Lato-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato/Lato-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato/Lato-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato/Lato-Hairline.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato/Lato-HairlineItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato/Lato-Heavy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato/Lato-HeavyItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato/Lato-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato/Lato-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato/Lato-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato/Lato-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato/Lato-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato/Lato-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato/Lato-Semibold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato/Lato-SemiboldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato/Lato-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Fonts/Lato/Lato-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Images/Logo/Combined.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Images/Logo/Logo.ai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Images/Logo/icon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Images/Logo/logo-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Images/Logo/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Images/Logo/text-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Styles/Buttons.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Styles/Colors.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Styles/Fonts.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Styles/Texts.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/Styles/Windows.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/ViewModel/BaseViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_4_FasettoWord/ViewModel/RelayCommand.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WPF_Learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WPF_Learning/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_3_TreeViewsSimpleViewModel/Directory/ViewModels/Base/RelayCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/_3_TreeViewsSimpleViewModel/Directory/ViewModels/Base/RelayCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WPF_Learning.sln" beforeDir="false" afterPath="$PROJECT_DIR$/WPF_Learning.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_3_TreeViewsSimpleViewModel/Directory/ViewModels/DirectoryItemViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/_3_TreeViewsSimpleViewModel/Directory/ViewModels/DirectoryItemViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_3_TreeViewsSimpleViewModel/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/_3_TreeViewsSimpleViewModel/MainWindow.xaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,10 +112,28 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/374e0cc872bc4e34a9611eedcffa28771c400/5e/c8150626/02000073pdb5.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/16477ae1886447bfade52ff93bdc1d22604f88/0a/c8adbf81/StyleHelper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/16477ae1886447bfade52ff93bdc1d22604f88/19/e2d5ca18/PropertyPathWorker.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/16477ae1886447bfade52ff93bdc1d22604f88/2e/9d5a5a48/WpfXamlLoader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/16477ae1886447bfade52ff93bdc1d22604f88/7f/f72d645c/ItemCollection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/16477ae1886447bfade52ff93bdc1d22604f88/8d/b03cc3f7/BindingExpressionBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/16477ae1886447bfade52ff93bdc1d22604f88/a2/ff154284/ItemsControl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/16477ae1886447bfade52ff93bdc1d22604f88/a5/d78d79e6/ClrBindingWorker.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/16477ae1886447bfade52ff93bdc1d22604f88/f4/4479b271/BindingExpression.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/206ca650b3064accb5daca7a0cab0e2017a718/d8/692153f9/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2252bf2ac96d427a9bdcdea248743f279ad70/18/4359bae7/ClrObjectRuntime.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2252bf2ac96d427a9bdcdea248743f279ad70/30/95cbe111/PartialTrustTolerantRuntime.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2252bf2ac96d427a9bdcdea248743f279ad70/3d/c1448c1a/XamlWriter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2252bf2ac96d427a9bdcdea248743f279ad70/fa/5522bce9/XamlObjectWriter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/41914444499f4996a3e6af79cf6c1fdb574b98/06/646cdc84/RuntimeType.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/43c0289854b6428895915465e7a8a8c05e00/2a/8ad16db7/ExceptionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bef42d0ad64547f7b348680dd7725a1a38f388/4b/0d22e309/EventRoute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ce12dc1aa9e14b919d8c1321c95d47fb35e718/b1/6af48462/Uri.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/18abfdd0b9864657427adca371bd66c8528750e4fe5025bd19724aed1e1139/BindableBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/289ea2435ccaac4b7958ba98fb0536b1b926b3b32e1ea7ced122514754d0/DelegateCommand.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WPF_Python/SUD.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WPF_Python/Test1.xaml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WPF_Python/obj/Debug/net7.0-windows/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://F:/git/WPF_Learning/_3_TreeViewsSimpleViewModel/Directory/ViewModels/DirectoryItemViewModel.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -59,7 +157,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.38722825&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.2835821&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -70,16 +168,16 @@
   },
   &quot;keyToStringList&quot;: {
     &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\truon\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\truon\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\truon\\AppData\\Local\\Symbols\\src&quot;
+      &quot;C:\\Users\\NR3RG_u01\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\NR3RG_u01\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\NR3RG_u01\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
 }</component>
   <component name="RiderProblemsViewState">
     <option name="proportion" value="0.7281106" />
   </component>
-  <component name="RunManager" selected=".NET Project._3_TreeViewsSimpleViewModel">
+  <component name="RunManager" selected=".NET Project._4_FasettoWord">
     <configuration name="SimpleMVVM" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -278,6 +376,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="_4_FasettoWord" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/_4_FasettoWord/_4_FasettoWord.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue=".NET Project._2_TreeViewsAndValueConverters" />
@@ -304,10 +420,8 @@
       <workItem from="1691971789382" duration="477000" />
       <workItem from="1692156408192" duration="341000" />
       <workItem from="1698670985533" duration="4738000" />
-      <workItem from="1698798034725" duration="25148000" />
-      <workItem from="1698846171924" duration="296000" />
-      <workItem from="1698846484147" duration="425000" />
-      <workItem from="1698846927467" duration="4913000" />
+      <workItem from="1698798034725" duration="26063000" />
+      <workItem from="1698884478525" duration="13110000" />
     </task>
     <task id="LOCAL-00001" summary="Update MVVM">
       <option name="closed" value="true" />
@@ -341,13 +455,13 @@
       <option name="project" value="LOCAL" />
       <updated>1698744657516</updated>
     </task>
-    <task id="LOCAL-00005" summary="update gitignore">
+    <task id="LOCAL-00005" summary="Update MVVm">
       <option name="closed" value="true" />
-      <created>1698846942777</created>
+      <created>1698831048450</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1698846942777</updated>
+      <updated>1698831048450</updated>
     </task>
     <option name="localTasksCounter" value="6" />
     <servers />
@@ -362,7 +476,7 @@
     <MESSAGE value="Update Test python xaml" />
     <MESSAGE value="update" />
     <MESSAGE value="Update MVVM" />
-    <MESSAGE value="update gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="update gitignore" />
+    <MESSAGE value="Update MVVm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update MVVm" />
   </component>
 </project>

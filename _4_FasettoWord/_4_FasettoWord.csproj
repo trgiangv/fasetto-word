@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props"
+            Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')"/>
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProjectGuid>{29DAD005-D316-4BBB-81D2-94E5F49DB790}</ProjectGuid>
+        <OutputType>WinExe</OutputType>
+        <RootNamespace>_4_FasettoWord</RootNamespace>
+        <AssemblyName>_4_FasettoWord</AssemblyName>
+        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+        <FileAlignment>512</FileAlignment>
+        <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+        <WarningLevel>4</WarningLevel>
+        <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+        <ApplicationIcon>Images\Logo\icon.ico</ApplicationIcon>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\Debug\</OutputPath>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\Release\</OutputPath>
+        <DefineConstants>TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="System"/>
+        <Reference Include="System.Core"/>
+        <Reference Include="System.Data"/>
+        <Reference Include="System.Xml"/>
+        <Reference Include="System.Xaml">
+            <RequiredTargetFramework>4.0</RequiredTargetFramework>
+        </Reference>
+        <Reference Include="WindowsBase"/>
+        <Reference Include="PresentationCore"/>
+        <Reference Include="PresentationFramework"/>
+    </ItemGroup>
+    <ItemGroup>
+        <ApplicationDefinition Include="App.xaml">
+            <Generator>MSBuild:Compile</Generator>
+            <SubType>Designer</SubType>
+        </ApplicationDefinition>
+        <Compile Include="ViewModel\BaseViewModel.cs" />
+        <Compile Include="ViewModel\RelayCommand.cs" />
+        <Page Include="MainWindow.xaml">
+            <Generator>MSBuild:Compile</Generator>
+            <SubType>Designer</SubType>
+        </Page>
+        <Compile Include="App.xaml.cs">
+            <DependentUpon>App.xaml</DependentUpon>
+            <SubType>Code</SubType>
+        </Compile>
+        <Compile Include="MainWindow.xaml.cs">
+            <DependentUpon>MainWindow.xaml</DependentUpon>
+            <SubType>Code</SubType>
+        </Compile>
+        <Page Include="Styles\Buttons.xaml" />
+        <Page Include="Styles\Colors.xaml" />
+        <Page Include="Styles\Fonts.xaml" />
+        <Page Include="Styles\Texts.xaml" />
+        <Page Include="Styles\Windows.xaml" />
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="Properties\AssemblyInfo.cs">
+            <SubType>Code</SubType>
+        </Compile>
+        <Compile Include="Properties\Resources.Designer.cs">
+            <AutoGen>True</AutoGen>
+            <DesignTime>True</DesignTime>
+            <DependentUpon>Resources.resx</DependentUpon>
+        </Compile>
+        <EmbeddedResource Include="Properties\Resources.resx">
+            <Generator>ResXFileCodeGenerator</Generator>
+            <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+        </EmbeddedResource>
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="App.config"/>
+    </ItemGroup>
+    <ItemGroup>
+      <Resource Include="Fonts\Lato-Black.ttf" />
+      <Resource Include="Fonts\Lato-BlackItalic.ttf" />
+      <Resource Include="Fonts\Lato-Bold.ttf" />
+      <Resource Include="Fonts\Lato-BoldItalic.ttf" />
+      <Resource Include="Fonts\Lato-Hairline.ttf" />
+      <Resource Include="Fonts\Lato-HairlineItalic.ttf" />
+      <Resource Include="Fonts\Lato-Heavy.ttf" />
+      <Resource Include="Fonts\Lato-HeavyItalic.ttf" />
+      <Resource Include="Fonts\Lato-Italic.ttf" />
+      <Resource Include="Fonts\Lato-Light.ttf" />
+      <Resource Include="Fonts\Lato-LightItalic.ttf" />
+      <Resource Include="Fonts\Lato-Medium.ttf" />
+      <Resource Include="Fonts\Lato-MediumItalic.ttf" />
+      <Resource Include="Fonts\Lato-Regular.ttf" />
+      <Resource Include="Fonts\Lato-Semibold.ttf" />
+      <Resource Include="Fonts\Lato-SemiboldItalic.ttf" />
+      <Resource Include="Fonts\Lato-Thin.ttf" />
+      <Resource Include="Fonts\Lato-ThinItalic.ttf" />
+      <Resource Include="Images\Logo\Combined.png" />
+      <Resource Include="Images\Logo\icon.ico" />
+      <Resource Include="Images\Logo\logo-small.png" />
+      <Resource Include="Images\Logo\Logo.ai" />
+      <Resource Include="Images\Logo\logo.png" />
+      <Resource Include="Images\Logo\text-logo.png" />
+    </ItemGroup>
+    <ItemGroup>
+      <Resource Include="Fonts\Lato\Lato-Black.ttf" />
+      <Resource Include="Fonts\Lato\Lato-BlackItalic.ttf" />
+      <Resource Include="Fonts\Lato\Lato-Bold.ttf" />
+      <Resource Include="Fonts\Lato\Lato-BoldItalic.ttf" />
+      <Resource Include="Fonts\Lato\Lato-Hairline.ttf" />
+      <Resource Include="Fonts\Lato\Lato-HairlineItalic.ttf" />
+      <Resource Include="Fonts\Lato\Lato-Heavy.ttf" />
+      <Resource Include="Fonts\Lato\Lato-HeavyItalic.ttf" />
+      <Resource Include="Fonts\Lato\Lato-Italic.ttf" />
+      <Resource Include="Fonts\Lato\Lato-Light.ttf" />
+      <Resource Include="Fonts\Lato\Lato-LightItalic.ttf" />
+      <Resource Include="Fonts\Lato\Lato-Medium.ttf" />
+      <Resource Include="Fonts\Lato\Lato-MediumItalic.ttf" />
+      <Resource Include="Fonts\Lato\Lato-Regular.ttf" />
+      <Resource Include="Fonts\Lato\Lato-Semibold.ttf" />
+      <Resource Include="Fonts\Lato\Lato-SemiboldItalic.ttf" />
+      <Resource Include="Fonts\Lato\Lato-Thin.ttf" />
+      <Resource Include="Fonts\Lato\Lato-ThinItalic.ttf" />
+    </ItemGroup>
+    <ItemGroup>
+      <Content Include="Fonts\JetbrainsMono\JetBrainsMono-Bold.ttf" />
+      <Content Include="Fonts\JetbrainsMono\JetBrainsMono-BoldItalic.ttf" />
+      <Content Include="Fonts\JetbrainsMono\JetBrainsMono-ExtraBold.ttf" />
+      <Content Include="Fonts\JetbrainsMono\JetBrainsMono-ExtraBoldItalic.ttf" />
+      <Content Include="Fonts\JetbrainsMono\JetBrainsMono-ExtraLight.ttf" />
+      <Content Include="Fonts\JetbrainsMono\JetBrainsMono-ExtraLightItalic.ttf" />
+      <Content Include="Fonts\JetbrainsMono\JetBrainsMono-Italic.ttf" />
+      <Content Include="Fonts\JetbrainsMono\JetBrainsMono-Light.ttf" />
+      <Content Include="Fonts\JetbrainsMono\JetBrainsMono-LightItalic.ttf" />
+      <Content Include="Fonts\JetbrainsMono\JetBrainsMono-Medium.ttf" />
+      <Content Include="Fonts\JetbrainsMono\JetBrainsMono-MediumItalic.ttf" />
+      <Content Include="Fonts\JetbrainsMono\JetBrainsMono-Regular.ttf" />
+      <Content Include="Fonts\JetbrainsMono\JetBrainsMono-SemiBold.ttf" />
+      <Content Include="Fonts\JetbrainsMono\JetBrainsMono-SemiBoldItalic.ttf" />
+      <Content Include="Fonts\JetbrainsMono\JetBrainsMono-Thin.ttf" />
+      <Content Include="Fonts\JetbrainsMono\JetBrainsMono-ThinItalic.ttf" />
+      <Content Include="Fonts\JetbrainsMono\JetBrainsMonoNL-Bold.ttf" />
+      <Content Include="Fonts\JetbrainsMono\JetBrainsMonoNL-BoldItalic.ttf" />
+      <Content Include="Fonts\JetbrainsMono\JetBrainsMonoNL-ExtraBold.ttf" />
+      <Content Include="Fonts\JetbrainsMono\JetBrainsMonoNL-ExtraBoldItalic.ttf" />
+      <Content Include="Fonts\JetbrainsMono\JetBrainsMonoNL-ExtraLight.ttf" />
+      <Content Include="Fonts\JetbrainsMono\JetBrainsMonoNL-ExtraLightItalic.ttf" />
+      <Content Include="Fonts\JetbrainsMono\JetBrainsMonoNL-Italic.ttf" />
+      <Content Include="Fonts\JetbrainsMono\JetBrainsMonoNL-Light.ttf" />
+      <Content Include="Fonts\JetbrainsMono\JetBrainsMonoNL-LightItalic.ttf" />
+      <Content Include="Fonts\JetbrainsMono\JetBrainsMonoNL-Medium.ttf" />
+      <Content Include="Fonts\JetbrainsMono\JetBrainsMonoNL-MediumItalic.ttf" />
+      <Content Include="Fonts\JetbrainsMono\JetBrainsMonoNL-Regular.ttf" />
+      <Content Include="Fonts\JetbrainsMono\JetBrainsMonoNL-SemiBold.ttf" />
+      <Content Include="Fonts\JetbrainsMono\JetBrainsMonoNL-SemiBoldItalic.ttf" />
+      <Content Include="Fonts\JetbrainsMono\JetBrainsMonoNL-Thin.ttf" />
+      <Content Include="Fonts\JetbrainsMono\JetBrainsMonoNL-ThinItalic.ttf" />
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
+</Project>
