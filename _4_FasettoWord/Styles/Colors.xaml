@@ -1,4 +1,19 @@
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     
-</ResourceDictionary>
+    <Color x:Key="BackGroundLight">#efefef</Color>
+    <SolidColorBrush x:Key="BackGroundLightBrush" Color="{StaticResource BackGroundLight}"/>
+    
+    <Color x:Key="BackGroundVeryLight">#fafafa</Color>
+    <SolidColorBrush x:Key="BackGroundVeryLightBrush" Color="{StaticResource BackGroundVeryLight}"/>
+    
+    <Color x:Key="ForceGroundMain">#686868</Color>
+    <SolidColorBrush x:Key="ForegroundMainBrush" Color="{StaticResource ForceGroundMain}"/>
+    
+    <Color x:Key="ForceGroundVeryDark">#fafafa</Color>
+    <SolidColorBrush x:Key="ForceGroundVeryDarkBrush" Color="{StaticResource ForceGroundVeryDark}"/>
+    
+    <Color x:Key="ForceGroundLight">#ffffff</Color>
+    <SolidColorBrush x:Key="ForceGroundLightBrush" Color="{StaticResource ForceGroundLight}"/>
+    
+</ResourceDictionary> 

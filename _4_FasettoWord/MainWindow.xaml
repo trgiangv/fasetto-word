@@ -7,10 +7,14 @@
         WindowStyle="None"
         AllowsTransparency="True"
         WindowStartupLocation="CenterScreen"
+        x:Name="AppWindow"
         Icon="Images/Logo/logo-small.png"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="WellCome, friend!" Height="350" Width="525">
 
+    <WindowChrome.WindowChrome>
+        <WindowChrome />
+    </WindowChrome.WindowChrome>
     <StackPanel>
         <TextBox Text="Welcome"></TextBox>
         <Label Content="Welcome"></Label>

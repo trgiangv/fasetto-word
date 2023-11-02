@@ -1,4 +1,6 @@
-﻿namespace _4_FasettoWord
+﻿
+
+namespace _4_FasettoWord
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -8,6 +10,7 @@
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new WindowViewModel(this);
         }
     }
 }
