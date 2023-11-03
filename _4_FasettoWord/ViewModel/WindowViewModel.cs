@@ -37,7 +37,11 @@ namespace _4_FasettoWord
         /// <summary>
         /// The smallest width the window can go to
         /// </summary>
-        public double WindowMinimumWidth { get; set; } = 400;
+        public double WindowMinimumWidth
+        {
+            get { return mWindow.ResizeMode == ResizeMode.NoResize ? mWindow.Width : mWindow.MinWidth; }
+            set { mWindow.MinWidth = value; }
+        }
 
         /// <summary>
         /// The smallest height the window can go to
