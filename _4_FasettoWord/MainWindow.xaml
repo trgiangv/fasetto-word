@@ -11,15 +11,74 @@
         Icon="Images/Logo/logo-small.png"
         mc:Ignorable="d"
         Title="WellCome, friend!" Height="350" Width="525">
-
+    
+    <Window.Resources>
+        <Style TargetType="{x:Type local:MainWindow}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Window}">
+                        <!-- Outer border with the drop shadow margin -->
+                        <Border Padding="{Binding OuterMarginSizeThickness, FallbackValue=10}">
+                            
+                            <!-- Main Window Content -->
+                            <Grid>
+                                <!-- window border and drop shadow -->
+                                <Border CornerRadius="{Binding WindowCornerRadius, FallbackValue=10}"
+                                        Background="{Binding ForceGroundLightBrush, FallbackValue=White}">
+                                    <Border.Effect>
+                                        <DropShadowEffect ShadowDepth="0" Opacity="0.2"></DropShadowEffect>
+                                    </Border.Effect>
+                                </Border>
+                                
+                                <!-- Window Content -->
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <!-- Title Bar -->
+                                        <RowDefinition Height="{Binding TitleHeightGridLength, FallbackValue=42}"/>
+                                        
+                                        <!-- Drop shadow -->
+                                        <RowDefinition Height="Auto"/>
+                                        
+                                        <!-- Window Content -->
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
+                                    
+                                    <!-- Title Bar -->
+                                    <Grid Grid.Row="0" Panel.ZIndex="1">
+                                        <Grid.ColumnDefinitions>
+                                            <!-- icon -->
+                                            <ColumnDefinition Width="Auto"/>
+                                            <!-- Title -->
+                                            <ColumnDefinition Width="*"/>
+                                            <!-- Window Button -->
+                                            <ColumnDefinition Width="Auto"/>
+                                        </Grid.ColumnDefinitions>
+                                        
+                                        <Button Grid.Column="0" WindowChrome.IsHitTestVisibleInChrome="True" Command="{Binding MenuCommand}">
+                                            <Image Source="../Images/Logo/logo-small.png"></Image>
+                                        </Button>
+                                    </Grid>
+                                    
+                                </Grid>
+                            </Grid>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    
     <WindowChrome.WindowChrome>
-        <WindowChrome />
+        <WindowChrome 
+            ResizeBorderThickness="{Binding ResizeBorderThickness}"
+            CaptionHeight="{Binding TitleHeight}"
+            GlassFrameThickness="0"
+            CornerRadius="0"
+            />
     </WindowChrome.WindowChrome>
     <StackPanel>
-        <TextBox Text="Welcome"></TextBox>
-        <Label Content="Welcome"></Label>
-        <TextBlock Text="Welcome"></TextBlock>
-        <Button Content="Welcome"/>
+
+
 
     </StackPanel>
     
